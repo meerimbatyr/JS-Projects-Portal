@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #444444;
+}
+
+body {
+  margin: 20px;
+}
+.container {
+  width: 70%;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 20px auto;
+}
+
+input,
+#btn {
+  border-radius: 8px;
+  border: 1px solid grey;
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px auto;
+}
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: scroll;
+}
+
+#btn {
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 556px) {
+  .container {
+    width: 100%;
+  }
+}
